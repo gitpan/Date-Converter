@@ -4,7 +4,7 @@ use strict;
 use base 'Date::Converter';
 
 use vars qw($VERSION);
-$VERSION = 1.0;
+$VERSION = 1.01;
 
 sub ymdf_to_jed {
     my ($y, $m, $d, $f) = @_;

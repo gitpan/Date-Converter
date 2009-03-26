@@ -4,7 +4,7 @@ use strict;
 use base 'Date::Converter';
 
 use vars qw($VERSION);
-$VERSION = 1.0;
+$VERSION = 1.01;
 
 # E G Richards,
 # Algorithm I,
@@ -166,7 +166,7 @@ sub j_borrow {
 
     while ($$j_ref <= 0) {
         $$y_ref--;
-        $$j_ref += year_length_hebrew($$y_ref);
+        $$j_ref += year_length($$y_ref);
     }
 }
 
