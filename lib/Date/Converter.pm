@@ -4,7 +4,7 @@ use strict;
 use POSIX;
 
 use vars qw($VERSION);
-$VERSION = 1.01;
+$VERSION = 1.1;
 
 sub new {
     my ($class, $from, $to) = @_;

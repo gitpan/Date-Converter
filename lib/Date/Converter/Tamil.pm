@@ -5,7 +5,7 @@ use strict;
 use base 'Date::Converter';
 
 use vars qw($VERSION);
-$VERSION = 1.01;
+$VERSION = 1.1;
 
 # E Reingold, N Dershowitz, S Clamen,
 # Calendrical Calculations, II: Three Historical Calendars,
